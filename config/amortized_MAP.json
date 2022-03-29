@@ -1,0 +1,11 @@
+{
+    "max_epoch": 5,
+    "lr": 0.01,
+    "idx": 100,
+    "sigma": 2000.0,
+    "nsrc": 102,
+    "nrec": 204,
+    "resume": true,
+    "pretrained_model_config": "test_amortized_imaging.json",
+    "sim_name": "amortized_MAP_imaging"
+}
