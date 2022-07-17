@@ -28,7 +28,7 @@ import Random: rand
 import Base.getindex
 import Distributions: logpdf, gradlogpdf
 import InvertibleNetworks:
-    forward, inverse, ResidualBlock, CouplingLayerBasic, ActivationFunction, conv1x1_grad_v
+    forward, inverse, ResidualBlock, CouplingLayerBasic, ActivationFunction
 
 # Utilities.
 include("./utils/load_experiment.jl")
@@ -40,7 +40,6 @@ include("./utils/config.jl")
 # Network.
 include("./network/conditional_network_hint.jl")
 include("./network/invertible_layer_basic.jl")
-include("./network/invertible_layer_conv1x1.jl")
 include("./network/put_param.jl")
 
 # Objective functions.
